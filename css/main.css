@@ -5,6 +5,7 @@
 p {
   font-family: 'Noto Sans JP', sans-serif;
   font-size: 16px;
+  line-height: 20px;
 }
 
 #sitecontainer{
@@ -28,7 +29,38 @@ p {
   font-family: 'Bebas Neue', cursive;
 }
 
-#teambox {
+#selectionbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+#longlist {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 600px;
+  margin: 30px;
+}
+li {
+  font-family: 'Noto Sans JP', sans-serif;
+  color: #fff;
+}
+a:visited {
+  color: #000;
+}
+a:hover {
+  color: #fff;
+}
+a {
+  color: #000;
+}
+p::first-letter {
+  font-size: 30px;
+  font-weight: bold;
+}
+.teambox {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -36,12 +68,13 @@ p {
   margin: 30px;
 }
 
-#photobox {
-  border-radius: 50px;
-  border: 10px;
+.photobox {
+  border-radius: 500px;
+  border-style: solid;
+  border-width: 8px;
   border-color: #fff;
 }
-#teamdetails {
+.teamdetails {
   width: 600px;
   margin: 30px;
 }
