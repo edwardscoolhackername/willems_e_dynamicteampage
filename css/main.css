@@ -2,6 +2,12 @@
   display: none;
 }
 
+@keyframes fadein {
+  from {opacity: 0;}
+  to {opacity: 100%;}
+}
+
+
 p {
   font-family: 'Noto Sans JP', sans-serif;
   font-size: 16px;
@@ -66,6 +72,7 @@ p::first-letter {
   justify-content: center;
   align-items: center;
   margin: 30px;
+  animation: fadein 1s linear;
 }
 
 .photobox {
