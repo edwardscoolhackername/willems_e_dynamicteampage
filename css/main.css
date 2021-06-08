@@ -2,14 +2,46 @@
   display: none;
 }
 
-#sitecontainer{
+p {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 16px;
+}
 
+#sitecontainer{
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  width: 1300px;
+  background-color: #e6e3e1;
 }
 
 #mainheader {
-
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #999796;
+}
+#titleheader {
+  font-size: 150px;
+  color: #fff;
+  font-family: 'Bebas Neue', cursive;
 }
 
 #teambox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+}
 
+#photobox {
+  border-radius: 50px;
+  border: 10px;
+  border-color: #fff;
+}
+#teamdetails {
+  width: 600px;
+  margin: 30px;
 }
